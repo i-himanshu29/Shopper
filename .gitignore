@@ -1,1 +1,27 @@
+# Node.js specific
 node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Dependency directories
+bower_components/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS specific
+.DS_Store
+
+# Linux specific
+*~
+
+#
