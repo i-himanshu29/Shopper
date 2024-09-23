@@ -86,7 +86,7 @@ const LoginSignup = () => {
     console.log("Login Function is Executed", formData);
     // Implement the login logic here
     try {
-      const response = await fetch('http://localhost:4000/login', {
+      const response = await fetch('https://shopper-3yzf.onrender.com/login', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -111,7 +111,7 @@ const LoginSignup = () => {
   const Signup = async () => {
     console.log("Signup Function is Executed", formData);
     try {
-      const response = await fetch('http://localhost:4000/signup', {
+      const response = await fetch('https://shopper-3yzf.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
