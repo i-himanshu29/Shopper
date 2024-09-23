@@ -37,6 +37,9 @@ const port = process.env.PORT || 4000
 app.use(express.json())
 app.use(cors())
 
+// Serve static files from the 'public' directory
+app.use(express.static('public'));
+
 //DB connection
 connectDB();
 
